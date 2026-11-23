@@ -1,0 +1,52 @@
+.site-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #222;
+    text-decoration: none;
+}
+
+.site-brand img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.site-brand-name {
+    margin: 0;
+    font-size: 20px;
+}
+
+.site-brand--center {
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.site-brand--center img {
+    width: 84px;
+    height: 84px;
+}
+
+@media (max-width: 600px) {
+    .site-brand img {
+        width: 52px;
+        height: 52px;
+    }
+
+    .site-brand-name {
+        font-size: 18px;
+    }
+}
+body {
+    background-color: #f4f6f9;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.84)),
+        url("../images/smk-telkom-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
